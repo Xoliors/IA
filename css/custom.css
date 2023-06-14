@@ -1,0 +1,68 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Handling Updates
+-----------------------------------------------------------------*/
+.centered-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+  }
+  
+  .centered-box {
+	text-align: center;
+	margin: 0 auto;
+  }
+  
+  .centered-box img {
+	max-width: 100%;
+	padding-top: 200px;
+  }
+  
+  .gato {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 75vh;
+  }
+  
+  #board {
+	border-collapse: collapse;
+	margin-bottom: 20px;
+  }
+  
+  #board td {
+	width: 80px;
+	height: 80px;
+	border: 1px solid black;
+	text-align: center;
+	font-size: 40px;
+	cursor: pointer;
+  }
+  
+  #result {
+	font-size: 24px;
+	font-weight: bold;
+  }
+  
+  #reset {
+	text-align: center;
+	margin-bottom: 20px;
+  }
+  
+  #reset button {
+	padding: 10px 20px;
+	font-size: 16px;
+	border-radius: 4px;
+	background-color: #166099;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+  }
+  
+  #reset button:hover {
+	background-color: #0e4167;
+  }
+  
